@@ -17,26 +17,32 @@
       "id": 4
     },
     {
-      "titulo": "Teste",
+      "titulo": "Programação",
       "id": 5
     }
   ],
   "notas": [
+    {
+      "titulo": "Elaborar filtro de notas",
+      "conteudo": "Utilizar mat-chip",
+      "categoriaId": 5,
+      "id": 8,
+      "categoria": {
+        "titulo": "Programação",
+        "id": 5
+      }
+    },
     {
       "id": 1,
       "titulo": "Lavar o cachorro 🦮",
       "conteudo": "Pegar o shampoo > pegar a toalha",
       "tema": "warning",
       "categoriaId": 3,
-      "arquivada": false
-    },
-    {
-      "id": 2,
-      "titulo": "Planejar as Aulas de Angular",
-      "conteudo": "Pesquisar material",
-      "tema": "info",
-      "categoriaId": 3,
-      "arquivada": false
+      "arquivada": false,
+      "categoria": {
+        "id": 3,
+        "titulo": "Trabalho"
+      }
     },
     {
       "id": 3,
@@ -44,7 +50,11 @@
       "conteudo": "Preparar projetos para as aulas",
       "tema": "danger",
       "categoriaId": 3,
-      "arquivada": false
+      "arquivada": false,
+      "categoria": {
+        "id": 3,
+        "titulo": "Trabalho"
+      }
     },
     {
       "titulo": "Teste do Insmonia",
@@ -52,7 +62,12 @@
       "tema": "dark",
       "id": 5,
       "categoriaId": 4,
-      "arquivada": true
+      "arquivada": true,
+      "categoria": {
+        "titulo": "Estudo",
+        "id": 4
+      }
     }
-  ]
+  ],
+  "arquivadas": []
 }
